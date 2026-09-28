@@ -59,3 +59,4 @@ total = 0
 for i in range (1,11):
     print(f"El múltiplo de 9 es: {i*9}")
     total += i*9
+
