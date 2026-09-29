@@ -10,10 +10,31 @@
 ##palabras = frase.split()
 ## print(f"Frase: {frase}, Número de palabras: {len(palabras)}")
 
-etiqueta = "URGENTE-RED dos"
-##prioridad, categoria = etiqueta.split()
-##print(prioridad.)
-partes = etiqueta.split(" , ")
-uno= partes[0]
-dos= partes[1]
-print(uno,dos)
+etiqueta = "URGENTE RED"
+prioridad, categoria = etiqueta.split()
+print(prioridad.lower())
+print(categoria.lower())
+##partes = etiqueta.split("-")
+##uno= partes[0]
+##dos= partes[1]
+##print(uno,dos)
+entrada=input("Dime una frase con guiones: ")
+partes= entrada.split("-")
+palabras=len(partes)
+for valor in range(palabras):
+    print(partes[valor])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
