@@ -18,3 +18,4 @@ with open("historial.json", "r", encoding="utf-8") as archivo:
     historial_cargado = json.load(archivo)
 
 print(historial_cargado[-1]["content"])
+
