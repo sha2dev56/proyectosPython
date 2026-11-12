@@ -1,0 +1,5 @@
+{
+    "usuario": "admin",
+    "puerto": 8080,
+    "debug": true
+}
